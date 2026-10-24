@@ -144,6 +144,10 @@ Typical flow:
 
 ---
 
+ForgeAI PR verification note: After opening a PR, ensure CI passes and perform a quick local smoke test by running:
+- npm ci && npm run build && npm start
+- Visit http://localhost:3000 to verify the app loads without errors.
+
 ## License
 
 Internal project for a local business. Add a formal license here if you plan to open source or distribute Invento.
