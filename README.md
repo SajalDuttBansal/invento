@@ -144,6 +144,20 @@ Typical flow:
 
 ---
 
+## ForgeAI Public PR Flow Smoke-Test
+
+A quick sanity check for ForgeAI public PR flow.
+
+Steps:
+- Ensure a pull request is opened on the ForgeAI public repository with the "smoke-test" label and a descriptive title.
+- Use the CI-provided preview URL (for example, a Vercel/Netlify preview) to load the app.
+- Verify the public flow renders without errors:
+  - The landing page loads.
+  - Public auth pages (signup/login) load if exposed publicly.
+  - A representative page (e.g., dashboard or product list) loads and basic interactions respond.
+- Check for console errors and any failed network requests.
+- If issues are found, comment on the PR with screenshots or logs and tag the maintainer.
+
 ## License
 
 Internal project for a local business. Add a formal license here if you plan to open source or distribute Invento.
