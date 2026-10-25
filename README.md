@@ -144,6 +144,10 @@ Typical flow:
 
 ---
 
+## ForgeAI PR Flow Smoke Note
+
+- Short smoke checks for PRs in ForgeAI: ensure server can start locally, routes load, and a minimal data render succeeds. This helps catch obvious issues quickly in PRs before CI.
+
 ## License
 
 Internal project for a local business. Add a formal license here if you plan to open source or distribute Invento.
